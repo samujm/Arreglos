@@ -26,5 +26,13 @@ public class TestArreglos {
         for (int i = 0; i < edades.length; i++) { //Propiedad length conocer el tamaño del arreglo
             System.out.println("edades elemento " + i + ": " + edades[i]);
         }
+        
+        /*--------------------------- DEFINIR UN ARREGLO INICIALIZANDO LOS ELEMENTOS DESDE UN PRINCIPIO (SINTAXIS RESUMIDA) -----------------------------------------------*/
+        String frutas[] = {"Naranja","Platano","Uva"};
+        for (int i = 0; i < frutas.length; i++) {
+            System.out.println("Fruta = " + i + "= " + frutas[i]);
+        }
+
+        
     }
 }
