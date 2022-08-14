@@ -18,6 +18,12 @@ public class TestArreglos {
         System.out.println("edades 1 = " + edades[1]);
         System.out.println("edades 2 = " + edades[2]);
 
+        //Acceder solo a los indices definidos en el arreglo, marca error de compilación
+        //edades[3] = 5;
         
+        //Iterrar el arreglo
+        for (int i = 0; i < edades.length; i++) { //Propiedad length conocer el tamaño del arreglo
+            System.out.println("edades elemento " + i + ": " + edades[i]);
+        }
     }
 }
