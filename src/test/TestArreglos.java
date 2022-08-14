@@ -12,6 +12,12 @@ public class TestArreglos {
         
         //ACCEDER A CADA UNO DE LOS ELEMENTOS PARA MODIFICARLO
         edades[0] = 10;
+        edades[1] = 5;
+        edades[2] = 75;
         System.out.println("edades 0 = " + edades[0]);
+        System.out.println("edades 1 = " + edades[1]);
+        System.out.println("edades 2 = " + edades[2]);
+
+        
     }
 }
